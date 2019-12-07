@@ -1,52 +1,37 @@
 /* bitches be like "yeah I know how to make a website :)" *uses fucking wordpress* */
 /* general elements ******/
 body {
-    background: #000 url('hlbg.jpg') repeat fixed;  
+    background: #000 url('bg.png') repeat fixed;  
     color: #fff;
     font-family: 'MS Gothic', sans-serif;
     font-size: 16px;
     margin: 20px auto;
+    max-width: 450px;
+}
+a {
+    color: #7331a5;
+    text-decoration: none;
+}
+img {max-width: 100%;}
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 5px 10px;
     text-align: center;
 }
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+h1:before {
+    content: url('froslass.png');
+    padding: 0 10px 0 0;
+    vertical-align: -50%;
+}
 
-a {text-decoration: none;}
-
-img {max-width: 100%;}
-
-/* classes ******/
-.box {
+/* eeeeee ******/
+.content {
     background: #000;
-    border: #fff 1px solid;
-    box-sizing: border-box;
-    margin: auto;
-    padding: 20px;
-    width: 300px;
-}
-
-.center {text-align: center;}
-
-.hover span {text-decoration: underline #fff dotted;}
-
-.links {
-    display: flex;
-    flex-direction: column;
-}
-
-.links a {
-    background: #000;
-    border: #fff 1px solid;
-    color: #f21515;
-    margin: 2px auto;
-    padding: 3px 0;
-    width: 100%;
-}
-
-.links a:hover {
-    background: #9e0000;
-    color: #000;
-}
-
-/* for people viewing on ant screens ******/
-    @media only screen and (max-width: 640px) {
-    body {font-size: 20px;}
+    border: #4695ff solid 1px;
+    padding: 0 1em;
 }
