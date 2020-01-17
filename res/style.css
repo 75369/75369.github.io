@@ -1,35 +1,29 @@
 /* bitches be like "yeah I know how to make a website :)" *uses fucking wordpress* */
-/* general elements ******/
+/** general **/
 body, html {margin: 0; padding: 0;}
 body {
     background: #000 url('bg.png') repeat fixed;  
     color: #fff;
-    font-family: 'MS Gothic', sans-serif;
-    font-size: 16px;
+    font: 16px 'MS Gothic', sans-serif;
 }
 a {
     color: #73b5d6;
     text-decoration: none;
 }
 img {max-width: 100%;}
-h1 {
-    font-size: 24px;
-    font-weight: normal;
-    padding: 5px 10px;
-    text-align: center;
-}
-h2 {
+h1, h2 {
     font-size: 24px;
     font-weight: normal;
     text-align: center;
 }
+h1 {padding: 5px 10px;}
 h1:before {
     content: url('froslass.png');
     padding: 0 10px 0 0;
     vertical-align: -50%;
 }
 
-/* eeeeee ******/
+/* class ******/
 .container {
     max-width: 450px;
     margin: 20px auto;
@@ -47,9 +41,5 @@ h1:before {
 	display: flex;
 	width: 100%;
 }
-.links a {
-	padding: 1em;
-}
-.links a:hover {
-	background: #191919;
-}
+.links a {padding: 1em;}
+.links a:hover {background: #191919;}
