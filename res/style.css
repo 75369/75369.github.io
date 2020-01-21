@@ -10,18 +10,14 @@ a {
     color: #73b5d6;
     text-decoration: none;
 }
-img {max-width: 100%;}
+img, iframe, video {max-width: 100%;}
 h1, h2 {
     font-size: 24px;
     font-weight: normal;
     text-align: center;
 }
 h1 {padding: 5px 10px;}
-h1:before {
-    content: url('froslass.png');
-    padding: 0 10px 0 0;
-    vertical-align: -50%;
-}
+video {margin: 1em 0;}
 
 /* class ******/
 .container {
@@ -36,6 +32,10 @@ h1:before {
     padding: 0 1em;
 	margin: 0 0 1em 0;
 }
+.icon {
+    float: left;
+    margin: 0 1em 0 0;
+}
 .links {
 	border-width: 0 0 1px 0;
 	display: flex;
@@ -43,3 +43,10 @@ h1:before {
 }
 .links a {padding: 1em;}
 .links a:hover {background: #191919;}
+
+/** id **/
+#title:before {
+    content: url('../img/froslass.png');
+    padding: 0 10px 0 0;
+    vertical-align: -50%;
+}
