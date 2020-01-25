@@ -1,8 +1,10 @@
 /* bitches be like "yeah I know how to make a website :)" *uses fucking wordpress* */
+/** import **/
+
 /** general **/
 body, html {margin: 0; padding: 0;}
 body {
-    background: #000 url('bg.png') repeat fixed;  
+    background: #000 url('../img/layout/bg.png') repeat;  
     color: #fff;
     font: 16px 'MS Gothic', sans-serif;
 }
@@ -19,6 +21,10 @@ h1, h2 {
 h1 {padding: 5px 10px;}
 video {margin: 1em 0;}
 
+/** mods **/
+.center {text-align: center;}
+.spacepls {margin-bottom: 1em;}
+
 /* class ******/
 .container {
     max-width: 450px;
@@ -30,11 +36,7 @@ video {margin: 1em 0;}
 }
 .content {
     padding: 0 1em;
-	margin: 0 0 1em 0;
-}
-.icon {
-    float: left;
-    margin: 0 1em 0 0;
+    margin: 0 0 1em 0;
 }
 .links {
 	border-width: 0 0 1px 0;
@@ -45,8 +47,11 @@ video {margin: 1em 0;}
 .links a:hover {background: #191919;}
 
 /** id **/
-#title:before {
-    content: url('../img/froslass.png');
-    padding: 0 10px 0 0;
-    vertical-align: -50%;
+#avatar {
+    display: block;
+    float: left;
+    margin: 0 1em 0 0;
+    padding: 0;
+    text-align: center;
+    width: 100px;
 }
