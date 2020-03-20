@@ -1,10 +1,12 @@
 # 75369.github.io
 
-help how do I use github
+## help how do I use github
+
+hi
 
 https://75369.github.io
 
-# aeiou
+## credits
 
 Icon from https://moetron.net/post/184529643520/
 
