@@ -1,0 +1,58 @@
+body, html {margin: 0; padding: 0;}
+p {margin: 1em 0;}
+iframe, img {max-width: 100%;}
+.center {text-align: center;}
+.hover {text-decoration: underline dashed #000;}
+
+/** general elements **/
+body {
+    background: #000 url('images/beato.gif') fixed top right no-repeat;
+    color: #fff;
+	font: 16px monospace;
+}
+a {
+	color: #fbda73;
+	text-decoration: none;
+}
+a:hover {
+	color: #f78c4a;
+	transition: all 1s ease;
+}
+b {color: #f78c4a;}
+h1 {
+    color: #f78c4a;
+    font-size: 200%;
+    margin: 5px 0;
+}
+h2 {
+    color: #f78c4a;
+    font-size: 110%;
+}
+
+/** class **/
+.container {
+    background: #000;
+    border: 3px solid #313131;
+    max-width: 500px;
+    margin: 1em;
+    padding: 1em;
+}
+.content {
+    padding: 1em 0;
+}
+.content h1 {
+    font-size: 150%;
+}
+/*
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+*/
+.navigation a {
+    color: #f78c4a;
+    /*display: block;
+    padding: 3px;*/
+}
+
